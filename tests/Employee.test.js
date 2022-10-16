@@ -1,4 +1,4 @@
-tesconst Employee = require ("../lib/Employee")
+const Employee = require ("../lib/Employee")
 const name = "Iva"
 const id = 101
 const email = "iva123@gmail.com"
