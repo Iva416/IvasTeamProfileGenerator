@@ -1,4 +1,4 @@
-const Intern = require ("..lib/Intern")
+const Intern = require ("../lib/Intern")
 const name = "Iva"
 const id = 101
 const email = "iva123@gmail.com"
@@ -9,7 +9,7 @@ describe("Intern", () => {
     describe("Initialization", () => {
         it("should have Intern Name", () => {
     
-     expect(obj).toBeInstanceOf(Employee);
+     expect(obj).toBeInstanceOf(Intern);
      expect(obj.name).toBe(name);
      expect(obj.id).toBe(id);
      expect(obj.email).toBe(email)

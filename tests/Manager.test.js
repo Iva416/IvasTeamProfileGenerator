@@ -1,4 +1,4 @@
-const Manager = require ("..lib/Manager")
+const Manager = require ("../lib/Manager")
 const name = "Iva"
 const id = 101
 const email = "iva123@gmail.com"
@@ -7,7 +7,7 @@ const obj = new Manager (name, id, email)
 
 describe("Engineer", () => {
     describe("Initialization", () => {
-        it("should have Engineer Name", () => {
+        it("should have Manager Name", () => {
     
      expect(obj).toBeInstanceOf(Manager);
      expect(obj.name).toBe(name);
